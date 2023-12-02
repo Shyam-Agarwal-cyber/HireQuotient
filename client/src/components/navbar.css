@@ -1,0 +1,69 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin: 0px 1rem;
+}
+
+.nav-comp{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+    padding-right: 2rem;
+}
+
+.nav-comp :hover{
+    background-color: #f0f0f0;
+}
+
+.logo{
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.nav-comp:hover .logo{
+    background-color: white;
+}
+
+.nav-ele{
+    display: flex;
+    padding: 0rem 1rem;
+    align-items: center;
+    border-radius: 0.375rem;
+}
+
+.arrow{
+    padding-top: 0.25rem;
+    padding-left: 0.25rem;
+    height: 0.5rem;
+}
+
+.vert-line{
+    width: 1px;
+    background-color: #f0f0f0;
+    height: 1.25rem;
+    padding: 0px;
+    align-items: center;
+    margin-top: 0.375rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.get-notion-free{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    margin-left: 0.625rem;
+}
+
+.nav-comp:hover .get-notion-free{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.slideUp{
+    border-bottom: 2px solid #e5e5e5;
+}
